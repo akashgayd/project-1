@@ -1,0 +1,722 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>noite project</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/bff9bff389.js" crossorigin="anonymous"></script>
+    <style>
+        .network{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            position: relative;
+            
+           
+            
+        }
+        .noit_persalisation_main_cont{
+            height: 100%;
+            width: 100%;
+           
+            position: relative;
+            top: 50px;
+            box-shadow: 10px 10px 20px black;
+           background-image: url("img/yashashi\ jaiswal\ boat.webp");
+           background-size: cover;
+           animation: animi 10s infinite ease;
+           transition-duration: 5s;
+           animation-duration: 20s;
+        
+        }
+        .bannaer{
+            display: none;
+        
+        
+        }
+        .airdops_itm{
+            position: relative;
+            top: 80px;
+            height: 300%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 5px;
+            /* border: 1px solid black; */
+
+        }
+        .airdops_name_cont{
+            height: 3%;
+            width: 100%;
+            display: flex;
+            font-size: 14px;
+        }
+        .itm-airpods_powerbank{
+height: 8%;
+width: 100%;
+/* border: 1px solid black; */
+display: flex;
+        }
+        .airdopsa1{
+            height: 100%;
+            width: 40%;
+            /* border: 1px solid black; */
+            background-color: rgba(255, 166, 0, 0.897);
+            border-radius: 8px;
+            transform: scale(1.1);
+        }
+        .itm-airpods_powerbank p{
+            font-size: 10px; 
+            text-align: center;
+            font-weight: 800;
+            text-transform: capitalize;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .airdopsa1_discription{
+            height: 100%;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            /* border: 1px solid black; */
+            padding: 15px;
+            
+        
+        }
+        .airdopsa1_discription p{
+            font-weight: 800;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 13px;
+            text-align: left;
+        }
+        .first_watch{
+            font-weight: 100;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 10px;
+
+        }
+        .airdops_button{
+            height: 30%;
+            width: 90%;
+            align-self: center;
+            background-color: black;
+            border-radius: 10px;
+            border: none;
+        }
+        .airdops_button a{
+            text-decoration: none;
+            text-transform: capitalize;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        .airdops_button:hover{
+            background-color: cadetblue;
+        }
+        .footer_cont{
+            position: relative;
+            top: 100px;
+        }
+        .login_button{
+            display: none;
+        }
+
+
+        @keyframes animi {
+            0%{
+                background-image: url("img/hardik\ boat.webp");
+                
+                }
+               
+               
+                
+              
+            
+            25%{
+                background-image: url("img/tapsee\ noice.jpg");
+            }
+          
+          
+            50%{
+                background-image:url("img/mandhana\ boad.webp");
+                
+            }
+            75%{
+                background-image:url("img/sreyash\ ayyar\ boat.webp");
+          
+
+            }
+    }
+        
+    
+            @media (min-width:768px) {
+                .noit_persalisation_main_cont{
+                    position: relative;
+                    top: 130px;
+                    
+                }
+                .airdops_itm{
+            position: relative;
+            top: 130px;
+            height: 250%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 5px;
+            /* border: 1px solid black; */
+
+        }
+        .airdops_name_cont{
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        .itm-airpods_powerbank p{
+            font-size: 14px;
+        }
+        .airdopsa1_discription p{
+            font-weight: 900;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            text-align: left;
+            margin-left: 2px;
+        }
+        .first_watch{
+            font-size:20px;
+        }
+            }
+            @media (min-width:1024px) {
+              
+               .network{
+                display: none;
+               }
+              /* .bannaer{
+                display: block;
+                width: 100%;
+                height: 100vh;
+                text-align: center;
+                position: relative;
+                overflow: hidden;
+                top: 140px;
+                
+              }
+              .slider{
+                position: absolute;
+                top: 10px;
+                width: 200px;
+                height: 250px;
+                left: calc(50% - 100px);
+                transform-style: preserve-3d;
+                transform: perspective(1000px);
+                animation: change 20s linear infinite;
+              }
+              .itm{
+                position: absolute;
+                inset: 0 0 0 0;
+                transform: 
+              rotateY(calc((var(--position) - 1) *(360 / var(--quantity))* 1deg))
+               translateZ(550px);
+               
+                
+              }
+              .itm img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+               border-radius: 10px;
+               position: relative;
+               top: 40px;
+              }
+              @keyframes change {
+                from{
+                    transform: perspective(1000px)  rotateY(0deg)
+                }
+                to{
+                    transform: perspective(1000px)  rotateY(360deg)
+                }
+              } */
+              .airdops_itm{
+            position: relative;
+            top: 140px;
+            height: 190%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 5px;
+            /* border: 1px solid black; */
+
+        }
+        .airdops_name_cont{
+            font-size: 17px;
+            
+        }
+        .itm-airpods_powerbank{
+            height: 18%;
+            width: 31%;
+            /* border: 1px solid black; */
+        }
+        .first_watch{
+            font-size:15px;
+            margin-left: 10px;
+            opacity: 0.6;
+            margin-top: 10px;
+        }
+        .airdops_button{
+            height: 20%;
+            width: 90%;
+            align-self: center;
+            background-color: black;
+            border-radius: 10px;
+            box-shadow: 10px 10px 20px black;
+               }
+               .airdops_button a{
+                font-size: 15px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+               }
+               .none{
+                display: none;
+               }
+               .login_button{
+            height: 70px;
+            width: 220px;
+            border: 1px solid lightgray;
+            position: absolute;
+            top: 80px;
+            right: 70px;
+            box-shadow: 10px 10px 20px black;
+            background-color: white;
+            
+         }   
+         .login_button p{
+            font-size: 20px;
+            text-align: center;
+            font-weight: 900;
+            text-transform: capitalize;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+         }
+         .login_button button{
+          height: 30px;
+          width: 80%;
+          background-color: black;
+          color: white;
+          position: relative;
+          left: 20px;
+          text-transform: capitalize;
+         }
+         .flow:hover .login_button{
+            display: block;
+         }
+               
+            }
+               
+              
+               
+              
+              
+               
+            
+        
+    </style>
+</head>
+<body>
+    <div class="main_cont">
+        <nav class="my_nav">
+            <section class="logo_sec">
+                <img class="img1" src="img/logo.avif" width="100%">
+               
+                <h2>NO<span>IT</span></h2>
+            </section>
+            <section  class="input_cont">
+                <input type="search" placeholder=" search">
+                <ul class="varaites_itm_cont">
+                    <li class="varaites_itm_cont_child">
+
+                        <a href="index.html">home</a>
+                    </li>
+                    <li class="varaites_itm_cont_child">
+                        <p>catagories</p>
+
+                        <div class="catagories_itm">
+<section class="catagories_itm_child">
+   <img src="img/cata/tru wireless headphone.webp" width="20%">
+    <p>true wireless headphone</p>
+    
+    <img src="img/cata/party speeker.webp" width="20%">
+     <p>party speeker</p>
+
+    <img src="img/cata/wireless speeker.webp" width="20%">
+     <p>wireless speeker</p>
+     
+     <img src="img/cata/car asseries.webp" width="20%">
+     <p>car assesiries</p>
+    
+   
+</section>
+<section class="catagories_itm_child">
+   <img src="img/cata/persolied product.webp" width="20%">
+   <p>personalised product</p>
+   <img src="img/cata/wiredhead phones.webp" width="20%">
+   <p>wiredhead phone</p>
+   <img src="img/cata/mistrip trimmar.webp" width="20%">
+   <p>mistrip trimmar</p>
+   <img src="img/cata/suprhero product.webp" width="20%">
+   <p>superhero product</p>
+</section>
+<section class="catagories_itm_child">
+    <img src="img/cata/wire hair phone.png" width="20%">
+    <p>hairphones</p>
+    <img src="img/cata/limited edition.webp" width="20%">
+    <p>limited edition</p>
+    <img src="img/cata/saundbar.webp" width="20%">
+    <p>sound  bar</p>
+    <img src="img/cata/powerbank.webp" width="20%">
+    <p>pawerbank</p>
+</section>
+<section class="catagories_itm_child">
+    <img src="img/cata/Wiredearphones_100x.webp" width="20%">
+    <p>wired earphones</p>
+    <img src="img/cata/charger.webp"width="20%">
+    <p>charger</p>
+    <img src="img/cata/smart watch.webp" width="20%">
+    <p>smart watch</p>
+    <img src="img/cata/trebel of wuman.png" width="20%">
+    <p>trebel of women</p>
+</section>
+<section class="catagories_itm_child">
+    <img src="img/cata/wireless headphones.webp" width="20%">
+    <p>wireless headphone</p>
+    <img src="img/cata/gaming headphones.png" width="20%">
+    <p>gamming headphone</p>
+    <img src="img/cata/cabke.webp" width="20%">
+    <p>cables</p>
+</section>
+
+
+                        </div>
+
+                    </li>
+                    <li class="varaites_itm_cont_child">
+                        <a href="#">noit personalised</a>
+                    </li>
+                    <li class="varaites_itm_cont_child">
+                        <a href="noice with boat .html">noice with boat</a>
+                    </li>
+                    <li class="varaites_itm_cont_child">
+                        <a href="corporate order.html">corporate order</a>
+                    </li>
+                   <li class="varaites_itm_cont_child">
+                    <p>more</p>
+                    <div class="more_offer_cont_hover">
+                        <ul class="more_offer_section">
+                            <li>
+                                <a href="#">daily deals</a>
+
+                            </li>
+                            <li>
+                                <a href="#">blogs</a>
+                            </li>
+                            <li>
+                                <a href="#">reffer & earn</a>
+                            </li>
+                            <li>
+                                <a href="#">careers</a>
+                            </li>
+                            <li>
+                                <a href="#">social responsibility</a>
+                            </li>
+                            <li>
+                                <a href="#">store locater</a>
+                            </li>
+                            <li>
+                                <a href="#">NOIT community</a>
+                            </li>
+                        </ul>
+                    </div>
+                   </li>
+                </ul>
+            </section>
+
+            <section class="login_cont">
+                <input type="search" placeholder="search">
+                <a href="kart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a class="flow" href="login.html"><i class="fa-solid fa-user"></i>
+                    <div class="login_button">
+    
+                         <p>hii bud'y</p>
+                         <button>login</button>
+                    </div></a>
+                <a href="beseller.html"><i class="fa-solid fa-list"></i></a>
+            </section>
+        </nav>
+        <div class="network">
+        
+        
+        <div class="noit_persalisation_main_cont"></div>
+    </div>
+<!-- 
+    <div class="bannaer">
+       
+       <div class="slider" style=" --quantity: 8">
+        <div class="itm" style="--position: 1">
+            <img src="img/persolosation.img/airdopes1.webp" alt="">
+        </div>
+        <div class="itm" style="--position: 2">
+            <img src="img/persolosation.img/airdops2.webp" alt="">
+        </div>
+        <div class="itm" style="--position: 3">
+            <img src="img/persolosation.img/airdops3.webp" alt="">
+        </div>
+        <div class="itm" style="--position: 4">
+            <img src="img/persolosation.img/airdops4.webp" alt="">
+        </div>
+        <div class="itm" style="--position: 5">
+            <img src="img/persolosation.img/airdops5.webp" alt="">
+        </div>
+        <div class="itm" style="--position: 6">
+            <img src="img/persolosation.img/airdops6.webp" alt="">
+        </div>
+        <div class="itm" style="--position: 7">
+            <img src="img/persolosation.img/airdops7.webp" alt="">
+        </div>
+        <div class="itm" style="--position: 8">
+            <img src="img/persolosation.img/airdops8.webp" alt="">
+        </div>
+       </div>
+    </div> -->
+     <!-- </div> -->
+     <div class="airdops_itm">
+        <section class="airdops_name_cont">
+            <h2>Special Range — Personalised Products</h2> </section>
+            <section class="itm-airpods_powerbank">
+                <div class="airdopsa1">
+                    <img src="img/persolosation.img/airdopes1.webp" height="90%" width="100%">
+                    <p>Noice Cancellation</p>
+
+                </div>
+                <div class="airdopsa1_discription">
+                    <small><i class="fa-regular fa-star"></i> 4.9 <span style="opacity: 0.3;">|</span>35</small>
+                   <p>boAT nirvana lon ANC</p>
+                 
+                   <span><b>2,499</b> <del style="opacity: 0.5;">9990</del><span style="color: green; font-weight: 800;">70%off</span></span>
+                   <br>
+                   <hr style="opacity: 0.5;">
+                   <span class="first_watch"> 112 hours playback </span>
+                   <br><br>
+                   <button class="airdops_button"><a href="kart.html">add to kart</a></button>
+                </div>
+            </section>
+            <section class="itm-airpods_powerbank">
+                <div class="airdopsa1">
+                    <img src="img/persolosation.img/airdops2.webp" height="90%" width="100%">
+                    <p>100 hours playback</p>
+
+                </div>
+                <div class="airdopsa1_discription">
+                    <small><i class="fa-regular fa-star"></i> 4.9 <span style="opacity: 0.3;">|</span>35</small>
+                    <p>boAT nirvana lon </p>
+                  
+                    <span><b>1,999</b> <del style="opacity: 0.5;">7990</del><span style="color: green; font-weight: 800;">75%off</span></span>
+                    <br>
+                    <hr style="opacity: 0.5;">
+                    <span class="first_watch"> ENx Technology </span>
+                    <br><br>
+                    <button class="airdops_button"><a href="kart.html">add to kart</a></button>
+                </div>
+            </section>
+            <section class="itm-airpods_powerbank">
+                <div class="airdopsa1">
+                    <img src="img/persolosation.img/airdops3.webp" height="90%" width="100%">
+                    <p>60 hours playback</p>
+
+                </div>
+                <div class="airdopsa1_discription">
+                    <small><i class="fa-regular fa-star"></i> 4.3 <span style="opacity: 0.3;">|</span>39</small>
+                    <p>boAT Airdopes </p>
+                  
+                    <span><b>799</b> <del style="opacity: 0.5;">2999</del><span style="color: green; font-weight: 800;">75%off</span></span>
+                    <br>
+                    <hr style="opacity: 0.5;">
+                    <span class="first_watch"> 13mm drivers </span>
+                    <br><br>
+                    <button class="airdops_button"><a href="kart.html">add to kart</a></button>
+                </div>
+            </section>
+            <section class="itm-airpods_powerbank">
+                <div class="airdopsa1">
+                    <img src="img/persolosation.img/airdops4.webp" height="90%" width="100%">
+                    <p>45 hours playback</p>
+
+                </div>
+                <div class="airdopsa1_discription">
+                    <small><i class="fa-regular fa-star"></i> 4.3 <span style="opacity: 0.3;">|</span>39</small>
+                    <p>boAT Airdopes 131 pro </p>
+                  
+                    <span><b>999</b> <del style="opacity: 0.5;">2999</del><span style="color: green; font-weight: 800;">71%off</span></span>
+                    <br>
+                    <hr style="opacity: 0.5;">
+                    <span class="first_watch"> clear calling </span>
+                    <br><br>
+                    <button class="airdops_button"><a href="kart.html">add to kart</a></button>
+                </div>
+            </section>
+            <section class="itm-airpods_powerbank">
+                <div class="airdopsa1">
+                    <img src="img/persolosation.img/airdops5.webp" height="90%" width="100%">
+                    <p>40 hours playback</p>
+
+                </div>
+                <div class="airdopsa1_discription">
+                    <small><i class="fa-regular fa-star"></i> 4.7 <span style="opacity: 0.3;">|</span>59</small>
+                    <p>boAT Airdopes 131 pro </p>
+                  
+                    <span><b>1099</b> <del style="opacity: 0.5;">3999</del><span style="color: green; font-weight: 800;">72%off</span></span>
+                    <br>
+                    <hr style="opacity: 0.5;">
+                    <span class="first_watch"> ASA charge </span>
+                    <br><br>
+                    <button class="airdops_button"><a href="kart.html">add to kart</a></button>
+                </div>
+            </section>
+            <section class="itm-airpods_powerbank">
+                <div class="airdopsa1">
+                    <img src="img/persolosation.img/airdops6.webp" height="90%" width="100%">
+                    <p>42 hours playback</p>
+
+                </div>
+                <div class="airdopsa1_discription">
+                    <small><i class="fa-regular fa-star"></i> 4.7 <span style="opacity: 0.3;">|</span>59</small>
+                    <p>boAT Airdopes AZM pro </p>
+                  
+                    <span><b>1559</b> <del style="opacity: 0.5;">3999</del><span style="color: green; font-weight: 800;">58%off</span></span>
+                    <br>
+                    <hr style="opacity: 0.5;">
+                    <span class="first_watch"> TMT fast charge </span>
+                    <br><br>
+                    <button class="airdops_button"><a href="kart.html">add to kart</a></button>
+                </div>
+            </section>
+            <section class="itm-airpods_powerbank">
+                <div class="airdopsa1">
+                    <img src="img/persolosation.img/airdops7.webp" height="90%" width="100%">
+                    <p>48 hours playback</p>
+
+    
+                </div>
+                <div class="airdopsa1_discription">
+                    
+                    <small><i class="fa-regular fa-star"></i> 4.7 <span style="opacity: 0.3;">|</span>59</small>
+                    <p>boAT Airdopes 170 </p>
+                  
+                    <span><b>1499</b> <del style="opacity: 0.5;">3999</del><span style="color: green; font-weight: 800;">61%off</span></span>
+                    <br>
+                    <hr style="opacity: 0.5;">
+                    <span class="first_watch"> TMx Technology </span>
+                    <br><br>
+                    <button class="airdops_button"><a href="kart.html">add to kart</a></button>
+                </div>
+            </section>
+            <section class="itm-airpods_powerbank">
+
+                <div class="airdopsa1">
+                    <img src="img/persolosation.img/airdops8.webp" height="90%" width="100%">
+                    <p>48 hours playback</p>
+
+    
+                </div>
+                <div class="airdopsa1_discription">
+                    <small><i class="fa-regular fa-star"></i> 4.9 <span style="opacity: 0.3;">|</span>19</small>
+                    <p>boAT Airdopes AZM pro </p>
+                  
+                    <span><b>1999</b> <del style="opacity: 0.5;">5999</del><span style="color: green; font-weight: 800;">68%off</span></span>
+                    <br>
+                    <hr style="opacity: 0.5;">
+                    <span class="first_watch"> NOIT special </span>
+                    <br><br>
+                    <button class="airdops_button"><a href="kart.html">add to kart</a></button>
+                </div>
+            </section>
+            <section class="itm-airpods_powerbank">
+                <div class="airdopsa1">
+                    <img src="img/persolosation.img/pawer bank1.webp" height="90%" width="100%">
+                    <p>10000 mAh pawor bank</p>
+
+    
+                </div>
+                <div class="airdopsa1_discription">
+                    <small><i class="fa-regular fa-star"></i> 4.9 <span style="opacity: 0.3;">|</span>19</small>
+                    <p>boAT energygroome PB 300 </p>
+                  
+                    <span><b>1099</b> <del style="opacity: 0.5;">2999</del><span style="color: green; font-weight: 800;">64%off</span></span>
+                    <br>
+                    <hr style="opacity: 0.5;">
+                    <span class="first_watch"> 22.5 fast charging </span>
+                    <br><br>
+                    <button class="airdops_button botton2"><a href="kart.html">add to kart</a></button>
+                </div>
+            </section>
+            <section class="itm-airpods_powerbank none">
+                <div class="airdopsa1">
+                    <img src="img/persolosation.img/pawerbank2.webp" height="90%" width="100%">
+                    <p>20000 mAh pawor bank</p>
+                </div>
+                <div class="airdopsa1_discription">
+                    <small><i class="fa-regular fa-star"></i> 4.9 <span style="opacity: 0.3;">|</span>19</small>
+                    <p>boAT energygroome AM 400 </p>
+                  
+                    <span><b>1999</b> <del style="opacity: 0.5;">4999</del><span style="color: green; font-weight: 800;">61%off</span></span>
+                    <br>
+                    <hr style="opacity: 0.5;">
+                    <span class="first_watch"> 29.5 fast charging </span>
+                    <br><br>
+                    <button class="airdops_button"><a href="kart.html">add to kart</a></button>
+                </div>
+            </section>
+       
+     </div>
+     <div class="footer_cont">
+        <div class="enter_email">
+            <section class="footer_logo">
+                <h1>no<span style="color: brown;">it</span>
+                </h1>
+            </section>
+            <section class="email_suscribe" >
+              <h3>subscribe to our email alerts!</h3>
+              <input type="email" placeholder=" Enter your email address">
+
+              <ul>
+              
+                <li>
+                    <a href="#">shop</a>
+                </li>
+                <li>
+                    <a href="#">help</a>
+                </li>
+                <li>
+                    <a href="#">company</a>
+                </li>
+              </ul>
+            </section>
+        </div>
+        <div class="social_cont">
+            <p>let's get's social</p> <br>
+            <span><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>  <i class="fa-brands fa-linkedin"></i></span>
+
+                <p> privacy and condition</p> <br>
+                 <small>© 2024 Imagine Marketing Limited. All Rights Reserved. For queries contact us: Manager, Imagine Marketing Limited Unit no. 204 & 205, 2nd floor, D-wing & E-wing, Corporate Avenue, Andheri Ghatkopar Link Road, Mumbai, Maharashtra-400093, India</small>
+        </div>
+    </div>
+    <div class="mobaile_view_home_cont">
+        <a href="home.html"><i class="fa-solid fa-house"></i></a>
+        <a href="noitpermition.html"><i class="fa-solid fa-share-from-square"></i></a>
+        <a style="color: brown;" href="noice with boat .html"><i class="fa-solid fa-handshake"></i></a>
+        <a href="corporate order.html"><i class="fa-solid fa-truck-fast"></i></a>
+        <a href="login.html"><i class="fa-solid fa-user"></i></a>
+    </div>
+   
+        </body>
+        </html>

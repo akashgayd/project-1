@@ -1,0 +1,839 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>noite project</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/bff9bff389.js" crossorigin="anonymous"></script>
+    <style>
+
+.login_button{
+                display: none;
+            }
+        @media (min_width:768px) {
+            .my_kar img{
+                width: 10px;;
+            }
+            .my_kart i{
+                text-transform: capitalize;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-family: 30px;
+            }
+         
+            
+        
+            .login_button{
+               height: 70px;
+               width: 220px;
+               border: 1px solid lightgray;
+               position: absolute;
+               top: 80px;
+               right: 70px;
+               box-shadow: 10px 10px 20px black;
+               
+            }   
+            .login_button p{
+               font-size: 20px;
+               text-align: center;
+               font-weight: 900;
+               text-transform: capitalize;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+            }
+            .login_button button{
+             height: 30px;
+             width: 80%;
+             background-color: black;
+             color: white;
+             position: relative;
+             left: 20px;
+             text-transform: capitalize;
+            }
+            .flow:hover .login_button{
+               display: block;
+            }
+           }
+           .main_sec_cont_spekr{
+            height: 80%;
+            width: 100%;
+            /* border: 1px solid black; */
+            position: relative;
+            top: 130px;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+           }
+           .a1{
+            /* border: 1px solid black; */
+           }
+           .name_of_cont{
+            height: 10%;
+            width: 100%;
+            padding: 10px;
+            font-size: 21px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-transform: capitalize;
+            /* border: 1px solid black; */
+           }
+           .speeker_cont_1{
+            height: 27%;
+            width: 80%;
+            display: flex;
+            /* border: 1px solid black; */
+            justify-content: space-between;
+           }
+           .speeker_cont_2{
+            display: none;
+           }
+
+.img_speeker1{
+    height: 100%;
+    width: 40%;
+    background-color: darkcyan;
+    border-radius: 10px;
+}
+
+.img_dis_cont{
+    height: 100%;
+    width: 55%;
+   background-color: rgb(181, 189, 195);
+    border-radius: 10px;
+    padding: 5px;
+}
+   
+
+.img_speeker2{
+    display: none;
+}
+.img_dis_cont2{
+    display: none;
+}
+.img_speeker1 p{
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 10px;
+    text-align: center;
+}
+.img_dis_cont strong{
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.img_dis_cont p{
+    font-size: 14px;
+}
+.img_dis_cont span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img_dis_cont small{
+    font-size: 10px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.img_dis_cont button{
+    height: 20px;
+    width: 80%;
+    background-color: black;
+    text-transform: capitalize;
+    text-align: center;
+    border:none;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px black;
+   
+}
+.img_dis_cont a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) {
+    .img_speeker1 p{
+        font-size: 13px;
+    }
+    .img_dis_cont strong{
+font-size: 24px;
+    }
+    .img_dis_cont p{
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+           @media (min-width:1024px) {
+            .speeker_cont_1
+            {
+                height: 40%;
+                width: 30%;
+                display: flex;
+                margin: 5px;
+
+                
+            }
+            .speeker_cont_2{
+                display: block;
+                height: 40%;
+                width: 30%;
+                display: flex;
+                /* border: 1px solid black; */
+                margin: 5px;
+                justify-content: space-between;
+
+                
+            }
+            .img_speeker2{
+                display: block;
+                height: 100%;
+    width: 40%;
+    background-color: darkcyan;
+    border-radius: 10px;
+            }
+            .img_dis_cont2{
+                height: 80%;
+    width: 55%;
+    background-color: rgb(207, 146, 72);
+    border-radius: 10px;
+    display: block;
+            }
+            .img_dis_cont small{
+                font-size: 14px;
+                text-transform: capitalize;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+            }
+            .img_dis_cont button{
+                height: 30px;
+                width: 85%;
+
+            }
+            button:hover{
+                background-color: cadetblue;
+            }
+            .img_speeker2 p{
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 900;
+    text-align: center;
+}
+.img_dis_cont2 p{
+        font-size: 20px;
+        line-height: 40px;
+    }
+       .img_dis_cont2 strong{
+        font-size: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+       }   
+       .img_dis_cont p{
+        font-size: 20px;
+        line-height: 40px;
+    }  
+
+
+
+
+    .img_dis_cont2 button{
+    height: 30px;
+    width: 85%;
+    background-color: black;
+    text-transform: capitalize;
+    text-align: center;
+    border:none;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px black;
+}
+.img_dis_cont2 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+button:hover{
+    background-color: cadetblue;
+}
+
+           }
+           
+        
+    </style>
+</head>
+<body>
+    <div class="main_cont">
+        <nav class="my_nav">
+            <section class="logo_sec">
+                <img class="img1" src="img/logo.avif" width="100%">
+               
+                <h2>NO<span>IT</span></h2>
+            </section>
+            <section  class="input_cont">
+                <input type="search" placeholder=" search">
+                <ul class="varaites_itm_cont">
+                    <li class="varaites_itm_cont_child">
+
+                        <a href="index.html">home</a>
+                    </li>
+                    <li class="varaites_itm_cont_child">
+                        <p>catagories</p>
+
+                        <div class="catagories_itm">
+<section class="catagories_itm_child">
+   <img src="img/cata/tru wireless headphone.webp" width="20%">
+    <p>true wireless headphone</p>
+    
+    <img src="img/cata/party speeker.webp" width="20%">
+     <p>party speeker</p>
+
+    <img src="img/cata/wireless speeker.webp" width="20%">
+     <p>wireless speeker</p>
+     
+     <img src="img/cata/car asseries.webp" width="20%">
+     <p>car assesiries</p>
+    
+   
+</section>
+<section class="catagories_itm_child">
+   <img src="img/cata/persolied product.webp" width="20%">
+   <p>personalised product</p>
+   <img src="img/cata/wiredhead phones.webp" width="20%">
+   <p>wiredhead phone</p>
+   <img src="img/cata/mistrip trimmar.webp" width="20%">
+   <p>mistrip trimmar</p>
+   <img src="img/cata/suprhero product.webp" width="20%">
+   <p>superhero product</p>
+</section>
+<section class="catagories_itm_child">
+    <img src="img/cata/wire hair phone.png" width="20%">
+    <p>hairphones</p>
+    <img src="img/cata/limited edition.webp" width="20%">
+    <p>limited edition</p>
+    <img src="img/cata/saundbar.webp" width="20%">
+    <p>sound  bar</p>
+    <img src="img/cata/powerbank.webp" width="20%">
+    <p>pawerbank</p>
+</section>
+<section class="catagories_itm_child">
+    <img src="img/cata/Wiredearphones_100x.webp" width="20%">
+    <p>wired earphones</p>
+    <img src="img/cata/charger.webp"width="20%">
+    <p>charger</p>
+    <img src="img/cata/smart watch.webp" width="20%">
+    <p>smart watch</p>
+    <img src="img/cata/trebel of wuman.png" width="20%">
+    <p>trebel of women</p>
+</section>
+<section class="catagories_itm_child">
+    <img src="img/cata/wireless headphones.webp" width="20%">
+    <p>wireless headphone</p>
+    <img src="img/cata/gaming headphones.png" width="20%">
+    <p>gamming headphone</p>
+    <img src="img/cata/cabke.webp" width="20%">
+    <p>cables</p>
+</section>
+
+
+                        </div>
+
+                    </li>
+                    <li class="varaites_itm_cont_child">
+                        <a href="noitpermition.html">noit personalised</a>
+                    </li>
+                    <li class="varaites_itm_cont_child">
+                        <a href="noice with boat .html">noice with boat</a>
+                    </li>
+                    <li class="varaites_itm_cont_child">
+                        <a href="corporate order.html">corporate order</a>
+                    </li>
+                   <li class="varaites_itm_cont_child">
+                    <p>more</p>
+                   </li>
+                </ul>
+            </section>
+
+            <section class="login_cont">
+                <input type="search" placeholder="search">
+                <a href="kart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a class="flow" href="login.html"><i class="fa-solid fa-user"></i>
+                    <div class="login_button">
+    
+                         <p>hii bud'y</p>
+                         <button>login</button>
+                    </div></a>
+                <a href="beseller.html"><i class="fa-solid fa-list"></i></a>
+            </section>
+        </nav>
+      <div class="main_sec_cont_spekr">
+        <section class="name_of_cont">
+            <h1>book now!</h1>
+        </section>
+        <section class="speeker_cont_1">
+            <div class="img_speeker1">
+                <img src="img/stone-speeker/speeker1.webp" width="100%"
+                height="90%">
+                <p>limited edition</p>
+            </div>
+            <div class="img_dis_cont">
+               <strong>NOIT VB 001</strong>
+               <p>₹9,999</p>
+               <del style="opacity: 0.4;">19999</del> <span style="color: rgb(72, 83, 209); font-weight: 900;">50% off</span>
+               <br>
+               <hr style="opacity: 0.4;">
+              
+               <small> this is a truly  wirelesss and smart speeker 
+                party speeker
+               </small>
+               <button><a href="kart.html">add to cart</a></button>
+            </div>
+        </section>
+        <section class="speeker_cont_1">
+            <div class="img_speeker1">
+                <img src="img/stone-speeker/speeker5.webp" width="100%"
+                height="90%">
+                <p>homeey</p>
+            </div>
+            <div class="img_dis_cont">
+                <strong>NOIT homeey 001</strong>
+                <p>₹15,999</p>
+                <del style="opacity: 0.4;">29999</del> <span style="color: rgb(72, 83, 209); font-weight: 900;">45% off</span>
+                <br>
+                <hr style="opacity: 0.4;">
+               
+                <small> this is a truly  wirelesss and smart speeker 
+                 party speeker
+                </small>
+                <button><a href="kart.html">add to cart</a></button>
+            </div>
+        </section>
+
+        <section class="speeker_cont_1">
+            <div class="img_speeker1">
+
+                <img src="img/stone-speeker/speeker7.webp" width="100%"
+                height="90%">
+                <p>limited edition</p>
+                
+            </div>
+            <div class="img_dis_cont">
+
+
+                <strong>NOIT smart speeker</strong>
+                <p>₹15,999</p>
+                <del style="opacity: 0.4;">25999</del> <span style="color: rgb(72, 83, 209); font-weight: 900;">40% off</span>
+                <br>
+                <hr style="opacity: 0.4;">
+               
+                <small> this is a truly  wirelesss and smart speeker 
+                 party speeker
+                 smart speeekr
+                </small>
+                <button><a href="kart.html">add to cart</a></button>
+            </div>
+        </section>
+
+        <section class="speeker_cont_2">
+            <div class="img_speeker2">
+                <img src="img/stone-speeker/speeker2.webp" width="100%"
+                height="90%">
+                <p>limited edition</p>
+            </div>
+            <div class="img_dis_cont2">
+
+                <strong>NOIT VB 081</strong>
+                <p>₹9,999</p>
+                <del style="opacity: 0.4;">19999</del> <span style="color: rgb(72, 83, 209); font-weight: 900;">50% off</span>
+                <br>
+                <hr style="opacity: 0.4;">
+               
+                <small> this is a truly  wirelesss and smart speeker 
+                 party speeker
+                </small>
+                <button><a href="kart.html">add to cart</a></button>
+            </div>
+        </section>
+
+        <section class="speeker_cont_2">
+            <div class="img_speeker2">
+
+
+                <img src="img/stone-speeker/speeker4.webp" width="100%"
+                height="90%">
+                <p>limited edition</p>
+            </div>
+            <div class="img_dis_cont2">
+
+
+
+                <strong>NOIT VB RZ1</strong>
+                <p>₹8,999</p>
+                <del style="opacity: 0.4;">17999</del> <span style="color: rgb(72, 83, 209); font-weight: 900;">57% off</span>
+                <br>
+                <hr style="opacity: 0.4;">
+               
+                <small> this is a truly  wirelesss and smart speeker 
+                 party speeker
+                </small>
+                <button><a href="kart.html">add to cart</a></button>
+            </div>
+        </section>
+
+        <section class="speeker_cont_2">
+            <div class="img_speeker2">
+                <img src="img/stone-speeker/speeker5.webp" width="100%" height="90%">
+                <p>party guru</p>
+            </div>
+            <div class="img_dis_cont2">
+
+
+                <strong>NOIT party guru</strong>
+                <p>₹11,999</p>
+                <del style="opacity: 0.4;">22999</del> <span style="color: rgb(72, 83, 209); font-weight: 900;">55% off</span>
+                <br>
+                <hr style="opacity: 0.4;">
+               
+                <small> this is a truly  wirelesss and smart speeker 
+                 party speeker
+                </small>
+                <button><a href="kart.html">add to cart</a></button>
+            </div>
+        </section>
+
+
+      </div>
+        </div>
+
+        <div class="main_sec_cont_spekr">
+            <section class="name_of_cont">
+                <h1>book now!</h1>
+            </section>
+            <section class="speeker_cont_1">
+                <div class="img_speeker1">
+                    <img src="img/stone-speeker/stone1.webp" width="100%"
+                    height="90%">
+                    <p>20 hours playback</p>
+                </div>
+                <div class="img_dis_cont">
+                   <strong>Stone 1V</strong>
+                   <p>₹1,999</p>
+                   <del style="opacity: 0.4;">3999</del> <span style="color: rgb(72, 83, 209); font-weight: 900;">50% off</span>
+                   <br>
+                   <hr style="opacity: 0.4;">
+                  
+                   <small> blututh wireless smart stone speeker 
+                    20 hours conninne playback 1year warrnty
+                   </small>
+                   <button><a href="kart.html">add to cart</a></button>
+                </div>
+            </section>
+            <section class="speeker_cont_1">
+                <div class="img_speeker1">
+                    <img src="img/stone-speeker/stone2.jpg" width="100%"
+                    height="90%">
+                    <p>homeey</p>
+                </div>
+                <div class="img_dis_cont">
+                    <strong>stone 99Z</strong>
+                    <p>₹999</p>
+                    <del style="opacity: 0.4;">2000</del> <span style="color: rgb(72, 83, 209); font-weight: 900;">45% off</span>
+                    <br>
+                    <hr style="opacity: 0.4;">
+                   
+                    <small> blututh wireless smart stone speeker 
+                        12 hours conninne playback 1year warrnty
+                    </small>
+                    <button><a href="kart.html">add to cart</a></button>
+                </div>
+            </section>
+    
+            <section class="speeker_cont_1">
+                <div class="img_speeker1">
+    
+                    <img src="img/stone-speeker/stone3.webp" width="100%"
+                    height="90%">
+                    <p>10 hour playback</p>
+                    
+                </div>
+                <div class="img_dis_cont">
+    
+    
+                    <strong>NOIT smart speeker</strong>
+                    <p>₹999</p>
+                    <del style="opacity: 0.4;">3999</del> <span style="color: rgb(72, 83, 209); font-weight: 900;">65% off</span>
+                    <br>
+                    <hr style="opacity: 0.4;">
+                   
+                    <small> blututh wireless smart stone speeker 
+                        10 hours conninne playback 1year warrnty
+                    </small>
+                    <button><a href="kart.html">add to cart</a></button>
+                </div>
+            </section>
+    
+            <section class="speeker_cont_2">
+                <div class="img_speeker2">
+                    <img src="img/stone-speeker/stone4.jpg" width="100%"
+                    height="90%">
+                    <p>limited edition</p>
+                </div>
+                <div class="img_dis_cont2">
+    
+                    <strong>NOIT special</strong>
+                    <p>₹799</p>
+                    <del style="opacity: 0.4;">5999</del> <span style="color: rgb(72, 83, 209); font-weight: 900;">74% off</span>
+                    <br>
+                    <hr style="opacity: 0.4;">
+                   
+                    <small> 15 hours contineu playback
+                        and 1year warrnty
+                    </small>
+                    <button><a href="kart.html">add to cart</a></button>
+                </div>
+            </section>
+    
+            <section class="speeker_cont_2">
+                <div class="img_speeker2">
+    
+    
+                    <img src="img/stone-speeker/stone6.webp" width="100%"
+                    height="90%">
+                    <p>15 hours playback</p>
+                </div>
+                <div class="img_dis_cont2">
+    
+    
+    
+                    <strong>NOIT VB RZ1</strong>
+                    <p>₹1999</p>
+                    <del style="opacity: 0.4;">2999</del> <span style="color: rgb(72, 83, 209); font-weight: 900;">42% off</span>
+                    <br>
+                    <hr style="opacity: 0.4;">
+                   
+                    <small> this is a truly  wirelesss and smart speeker 
+                     party speeker
+                    </small>
+                    <button><a href="kart.html">add to cart</a></button>
+                </div>
+            </section>
+    
+            <section class="speeker_cont_2">
+                <div class="img_speeker2">
+                    <img src="img/stone-speeker/stone11.webp" width="100%" height="90%">
+                    <p>party guru</p>
+                </div>
+                <div class="img_dis_cont2">
+    
+    
+                    <strong>NOIT party guru</strong>
+                    <p>₹11,999</p>
+                    <del style="opacity: 0.4;">22999</del> <span style="color: rgb(72, 83, 209); font-weight: 900;">55% off</span>
+                    <br>
+                    <hr style="opacity: 0.4;">
+                   
+                    <small> this is a truly  wirelesss and smart speeker 
+                     party speeker
+                    </small>
+                    <button><a href="kart.html">add to cart</a></button>
+                </div>
+            </section>
+    
+    
+          </div>
+<br><br><br><br><br> <br><br><br><br>
+
+
+<div class="footer_cont">
+    <div class="enter_email">
+        <section class="footer_logo">
+            <h1>no<span style="color: brown;">it</span>
+            </h1>
+        </section>
+        <section class="email_suscribe" >
+          <h3>subscribe to our email alerts!</h3>
+          <input type="email" placeholder=" Enter your email address">
+
+          <ul>
+          
+            <li>
+                <a href="#">shop</a>
+            </li>
+            <li>
+                <a href="#">help</a>
+            </li>
+            <li>
+                <a href="#">company</a>
+            </li>
+          </ul>
+        </section>
+
+       
+    </div>
+    <div class="social_cont">
+        <p>let's get's social</p> <br>
+        <span><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>  <i class="fa-brands fa-linkedin"></i></span>
+
+            <p> privacy and condition</p> <br>
+             <small>© 2024 Imagine Marketing Limited. All Rights Reserved. For queries contact us: Manager, Imagine Marketing Limited Unit no. 204 & 205, 2nd floor, D-wing & E-wing, Corporate Avenue, Andheri Ghatkopar Link Road, Mumbai, Maharashtra-400093, India</small>
+    </div>
+</div>
+<div class="company_details_cont">
+    <section class="product_of_company_cont">
+        <ul style="text-transform: capitalize; color: white; text-align: justify;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; line-height: 20px; opacity: 0.7; list-style: none;">
+            
+            <li style="font-size: 24px; opacity: 0.6; text-transform: capitalize;
+            color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                airpodes verieties
+            </li>
+            <br><br>
+            <li>
+                Noise Cancellation 
+                
+            </li>
+            <li>
+                Earbuds Gaming Earbuds
+
+            </li>
+            <li>
+                Large Playback Earbuds
+            </li> <br><br>
+            <li style="font-size: 24px; opacity: 0.6; text-transform: capitalize;
+            color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            shop by price </li>
+            <li>
+
+                Earbuds Under 1000 <br>
+
+                 Earbuds Under 2000 <br>
+                 Earbuds Under 3000 
+                 <br>
+                 
+                 Earbuds Under 4000 <br>
+                 Earbuds Under 5000 <br>
+                  Earbuds Above 5000
+
+                
+
+
+
+
+            </li>
+        </ul>
+    </section>
+    <section class="product_of_company_cont">
+
+<ul style="color: white; text-transform: capitalize;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 0.7; list-style: none;">
+
+
+        <li style="font-size: 24px; opacity: 0.6; text-transform: capitalize;
+        color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+           speeker's
+        </li>
+        <br><br>
+        <li>
+            Noise  boAt special speeker
+            
+        </li>
+        <li>
+            party speeker
+
+        </li>
+        <li>
+            Large Playback speeker
+        </li> <br><br>
+        <li style="font-size: 24px; opacity: 0.6; text-transform: capitalize;
+        color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        shop by price </li>
+        <li style="color: white;">
+
+            speeker Under 4000 <br>
+
+             speeker Under 6000 <br>
+             speeker Under 8000 
+             <br>
+             
+             speeker Under 11,000  <br>
+             speeker Under 17,000 <br>
+             speeker Under 23,000
+             </li>
+             
+</ul>
+            
+    </section>
+    <section class="product_of_company_cont">
+
+
+
+        <ul style="color: white; text-transform: capitalize;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 0.7; list-style: none;">
+        
+        
+                    <li style="font-size: 24px; opacity: 0.6; text-transform: capitalize;
+                    color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                       headphone's
+                    </li>
+                    <br><br>
+                    <li>
+                        Noise  boAt special headphone
+                        
+                    </li>
+                    <li>
+                       boAT wire headphone
+        
+                    </li>
+                    <li>
+                        gamming headphone
+                    </li> <br><br>
+                    <li style="font-size: 24px; opacity: 0.6; text-transform: capitalize;
+                    color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    shop by price </li>
+                    <li style="color: white;">
+        
+                        headphone Under 2000 <br>
+        
+                        headphone Under 3000<br>
+                        headphone Under 3400 
+                         <br>
+                         
+                         headphone Under 3700 <br>
+                         headphone Under 5000 <br>
+                         headphone Under 9000
+                         </li>
+                         
+        </ul>
+
+
+    </section>
+    <section style="color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-transform: capitalize; opacity: 0.7;" class="product_of_company_cont">
+
+<h2>
+Company Head office
+</h2> <br><br>
+<p style="text-align: justify;">
+NOIT's corporate office is located at 204 and 205, 2nd floor, D-wing and E-wing, Corporate Avenue, Andheri Ghatkopar Link Road, Mumbai, Maharashtra 400093, India. The company also has locations in Gurgaon, Haryana and Bangalore
+</p>
+
+    </section>
+   
+</div>
+<div class="mobaile_view_home_cont">
+    <a href="home.html"><i class="fa-solid fa-house"></i></a>
+    <a href="noitpermition.html"><i class="fa-solid fa-share-from-square"></i></a>
+    <a style="color: brown;" href="noice with boat .html"><i class="fa-solid fa-handshake"></i></a>
+    <a href="corporate order.html"><i class="fa-solid fa-truck-fast"></i></a>
+    <a href="login.html"><i class="fa-solid fa-user"></i></a>
+</div>
+        
+        </body>
+        </html>

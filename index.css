@@ -1,0 +1,1332 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+.main_cont{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+
+}
+.my_nav{
+    height: 12%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.954);
+    position: fixed;
+    z-index: 1;
+}
+.logo_sec{
+    height: 70%;
+    width: 25%;
+    /* border: 1px solid black; */
+    margin: 2px;
+   
+}
+.logo_sec img{
+    position: relative;
+    bottom: 14px;
+    
+}
+.logo_sec h2{
+    display: none;
+}
+.input_cont{
+    width: 50%;
+    height: 50%;
+   
+    /* border: 1px solid black; */
+   border-radius: 10px;
+    position: relative;
+    margin: 2px;
+    
+   
+}
+.varaites_itm_cont{
+    display: none;
+}
+.input_cont input{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    font-size: 15px;
+   
+   
+    text-transform: capitalize;
+}
+.login_cont{
+    height: 80%;
+    width: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    justify-content: space-evenly;
+   
+}
+.login_cont a{
+    color: black;
+}
+.login_cont input{
+    display: none;
+}
+.catagories_itm{
+    display: none;
+}
+.header_cont{
+    height: 86%;
+    width:100%;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 11px;
+
+    
+}
+.header_section_discription{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom,rgb(184, 206, 225),white,);
+  filter: drop-shadow(1px 1px 20px white);
+    
+}
+.header_section_img{
+    height: 50%;
+    width: 100%;
+    background-image: url("img/header/boat\ 1\ header\ img.webp");
+    background-size: cover;
+    z-index: 0;
+
+}
+.icon_add{
+    height: 17%;
+    width: 5%;
+    /* border: 1px solid black; */
+    position: absolute;
+    right: 10px;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+.a1{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.a2{
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.a3{
+    text-transform: capitalize;
+    font-weight: 100;
+}
+.a3 span{
+    font-weight: 700;
+}
+.header_section_discription button{
+ height: 2rem;
+ width: 6rem;
+ background-color: black;
+ border-radius: 6px;
+
+}
+.header_section_discription a{
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.verieties_of_buts_cont{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   padding: 10px;
+   flex-wrap: wrap;
+   /* border: 1px solid black; */
+   position: relative;
+   top: 50px;
+}
+.b1{
+    height: 45%;
+    width: 45%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+.b1_header_cont{
+    display: none;
+}
+.playback_cont{
+   width: 80%;
+   height: 10%;
+   font-size: 10px;
+   position: relative;
+   bottom: 8px;
+   margin-left: 15px;
+   border-radius: 10px;
+   text-transform: capitalize;
+   background-color: rgb(241, 188, 88);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.b1 p{
+    font-size: 12px;
+}
+.b1 span{
+    font-weight: 700;
+    color: rgb(97, 171, 114);
+}
+.add_kart{
+    position: relative;
+    top: 6px;
+    background-color: black;
+    height: 15px;
+    width: 70%;
+    left: 20px;
+    border-radius: 5px;
+}
+.add_kart a{
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.watch_cont_section{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.watches_section{
+    height: 60%;
+    width: 100%;
+    background-image: url("img/watch/watch\ 2.webp");
+    background-size: cover;
+   box-shadow: 10px 10px 20px black;
+}
+.watch_description_section{
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top,rgb(170, 160, 148),rgb(246, 241, 241));
+}
+.p2{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p2 span{
+    font-weight: 800;
+}
+.p3{
+    font-size: 20px; text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.p3 span{
+    font-weight: 800;
+}
+.watch_cont_section button{
+    width: 140px;
+    height: 23px;
+    background-color: black;
+    border-radius: 6px;
+}
+.watch_cont_section a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.varaites_of_waches_cont{
+    height: 80%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.varaites_of_waches_cont_name{
+    height: 10%;
+    width: 100%;
+   
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.b1{
+    
+    height: 37%;
+    width: 45%;
+}
+.neakbond_cont{
+    height: 100%;
+    width: 100%;
+    
+    padding: 10px;
+}
+.neakbond_cont_discription{
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top,rgb(170, 160, 148),rgb(246, 241, 241));
+}
+.neakbond_cont_img{
+    height: 60%;
+    width: 100%;
+    background-image: url("img/lady\ cric\ boat.webp");
+    background-size: cover;
+   box-shadow: 10px 10px 20px black;
+}
+.neakbond_cont button{
+    width: 140px;
+    height: 23px;
+    background-color: black;
+    border-radius: 6px;
+}
+.neakbond_cont a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.neakbond_itm_cont_sec{
+    height: 80%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.neakbond_itm_sec_name{
+    height: 10%;
+    width: 100%;
+  
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wireless_speeker_cont{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+.wireless_speeker_cont_img{
+    height: 60%;
+    width: 100%;
+    background-image: url("img/watch/speeker\ big1.webp");
+    background-size: cover;
+box-shadow: 10px 10px 20px paleturquoise;
+}
+.wireless_speeker_cont_discription{
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top,rgb(170, 160, 148),rgb(246, 241, 241));
+}
+.wireless_speeker_cont_discription button{
+    width: 140px;
+    height: 23px;
+    background-color: black;
+    border-radius: 6px;
+}
+.wireless_speeker_cont_discription a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.wireless_spekker_product{
+    height: 80%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.wireless_spekker_product_name{
+    height: 10%;
+    width: 100%;
+  
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.headphone_cont{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+.headphone_cont_disproption{
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top,rgb(170, 160, 148),rgb(246, 241, 241));
+}
+.headphone_cont_img{
+    background-image: url("img/noice\ headphone\ girl.webp");
+    background-size: cover;
+    height: 60%;
+    width: 100%;
+  
+box-shadow: 10px 10px 20px rgb(7, 8, 8);
+}
+.headphone_cont button{
+    width: 140px;
+    height: 23px;
+    background-color: black;
+    border-radius: 6px;
+}
+.headphone_cont a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.headphone_varieties_cont{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.headphone_varieties_cont_name{
+    height: 10%;
+    width: 100%;
+  
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+}
+.party_speeker_cont{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.party_speeker_img{
+    height: 60%;
+    width: 100%;
+    background-image: url("img/hardik\ boat.webp");
+    background-size: cover;
+    box-shadow: 10px 10px 20px black;
+}
+.party_speeker_discription{
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top,rgb(170, 160, 148),rgb(246, 241, 241));
+
+}
+.party_speeker_discription button{
+    width: 140px;
+    height: 23px;
+    background-color: black;
+    border-radius: 6px;
+}
+.party_speeker_discription a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.party_speeker_verities{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 10px;
+}
+.party_speeker_verities_name{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_cont{
+    height: 100%;
+    width: 100%;
+   
+     /* border: 1px solid black; */
+     background-color: rgba(255, 255, 255, 0.336);
+     padding: 20px;
+}
+.enter_email{
+    height: 70%;
+    width: 100%;
+    position: relative;
+    
+    background-color: rgba(175, 207, 207, 0.482);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_logo{
+    height: 13%;
+    width: 50%;
+    background-color: rgb(131, 98, 163);
+    border-radius: 0% 0% 10% 90%;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 3px black;
+    font-size: 30px;
+
+}
+.email_suscribe{
+    height: 86%;
+    width: 100%;
+    padding: 10px;
+    text-transform: capitalize;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.email_suscribe input{
+    width: 90%;
+    height: 10%;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: rgba(83, 93, 172, 0.333);
+    border: 1px solid lightgray;
+
+}
+.email_suscribe ul{
+    list-style: none;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.email_suscribe a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.company_details_cont{
+    display: none;
+}
+.social_cont{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.social_cont p{
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.social_cont span{
+    word-spacing: 20px;
+    font-size: 21px;
+}
+.social_cont small{
+    text-align: justify;
+    opacity: 0.6;
+}
+.mobaile_view_home_cont{
+    height: 10%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+  background: linear-gradient(to right,rgba(0, 0, 255, 0.363),white);
+  border-radius: 8px;
+    padding: 10px;
+   
+}
+.mobaile_view_home_cont a{
+    color: black;
+}
+.login_button{
+    display: none;
+}
+
+
+@media (min-width:768px) {
+    .my_nav{
+        height: 13%;
+        background-color: rgb(169, 148, 190);
+        border-radius: 8px;
+
+    }
+    .varaites_itm_cont{
+        display: none;
+      
+    }
+    .varaites_itm_cont_child{
+         display: none;
+    }
+    .logo_sec{
+        padding: 20px;
+    }
+    .logo_sec img{
+     display: none;
+    }
+    .logo_sec h2{
+        font-size: 50px;
+        display: block;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 900;
+       
+    }
+    .logo_sec span{
+        color: brown;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 2px 4px black;
+    }
+    .input_cont input{
+        font-size: 20px;
+    }
+    .login_cont{
+        font-size: 22px;
+    }
+    .header_cont{
+        height: 86%;
+        width:100%;
+        /* border: 1px solid black; */
+        position: relative;
+        top: 60px;
+    
+    
+}
+.a1{
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.a2{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.a3{
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 20px;
+}
+.a3 span{
+    font-weight: 700;
+    
+}
+.header_section_discription button{
+ height: 3rem;
+ width: 9rem;
+ background-color: black;
+ border-radius: 6px;
+ font-size: 20px;
+
+}
+.header_section_discription a{
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.playback_cont{
+    width: 80%;
+    height: 10%;
+    font-size: 17px;
+    position: relative;
+    bottom: 17px;
+    margin-left: 25px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    background-color: rgb(241, 188, 88);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .b1 p{
+    font-size: 18px;
+}
+.b1 span{
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(97, 126, 171);
+}
+.add_kart{
+    position: relative;
+    top: 8px;
+    background-color: black;
+    height: 27px;
+    width: 70%;
+    left: 45px;
+    border-radius: 5px;
+}
+.add_kart a{
+    font-size: 19px;
+}
+.watches_section{
+    height: 100%;
+    width: 100%;
+    background-image: url("img/watch/watch\ 2.webp");
+    background-size: cover;
+
+}
+.watch_description_section{
+    display: none;
+}
+.neakbond_cont_img{
+    height: 100%;
+    width: 100%;
+
+}
+.neakbond_cont_discription{
+    display: none;
+}
+.wireless_speeker_cont_img{
+    height: 100%;
+    width: 100%;
+    background-image: url("img/watch/avante\ bar\ 2.webp");
+    background-size: cover;
+
+}
+.wireless_speeker_cont_discription{
+    display: none;
+   
+}
+.headphone_cont_disproption{
+    display: none;
+}
+.headphone_cont_img{
+    background-image: url("img/noice\ headphone\ girl.webp");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  
+box-shadow: 10px 10px 20px rgb(7, 8, 8);
+}
+.party_speeker_img{
+    height: 100%;
+    width: 100%;
+}
+.party_speeker_discription{
+    display: none;
+}
+.mobaile_view_home_cont{
+    height: 10%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+  background: linear-gradient(to right,rgba(0, 0, 255, 0.363),white);
+  border-radius: 8px;
+    padding: 10px;
+}
+}
+@media (min-width:1024px) {
+    .my_nav{
+        background-color: white;
+
+    }
+    .input_cont{
+        height: 100%;
+
+    }
+    .varaites_itm_cont{
+        display: block;
+    }
+    .input_cont input{
+        display: none;
+    }
+    .img1{
+        display: none;
+    }
+    .logo_sec{
+        background-color: rgb(131, 98, 163);
+        height: 100%;
+        width: 15%;
+        border-radius: 5% 6% 0 80%;
+    }
+    .logo_sec h2{
+        font-size: 40px;
+        text-shadow: 2px 3px black;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+    }
+    .varaites_itm_cont{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: end;
+        justify-content: space-around;
+        height: 100%;
+        width: 100%;
+        /* border: 1px solid black; */
+}
+
+.varaites_itm_cont_child{
+    display: block;
+    /* border: 1px solid black; */
+    padding: 10px;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.varaites_itm_cont_child a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+}.varaites_itm_cont_child:hover{
+    text-decoration: underline;
+    /* transition-delay: 1s; */
+    color: rgb(7, 55, 106);
+}
+.varaites_itm_cont_child:hover .catagories_itm{
+    height: 350px;
+   width: 300%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 70px;
+   border-radius: 10px;
+   box-shadow: 10px 10px 20px rgb(2, 2, 2);
+    display: block;
+    transition-duration: 2s;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: end;  
+   
+}
+.catagories_itm_child{
+  
+    display: none;
+    
+   
+}
+.catagories_itm_child{
+    height: 90%;
+    width: 12%;
+    /* border: 1px solid black; */
+ 
+  padding: 10px;
+  display: block;
+  /* margin: 5px; */
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+ flex-wrap: wrap;
+  font-size: 16px;
+  justify-content: space-evenly;
+ z-index: 1;
+  
+
+}
+
+
+.login_cont input{
+    display: block;
+    height: 40px;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    font-size: 15px;
+    text-transform: capitalize;
+
+}
+.header_cont{
+    height: 88%;
+    width:100%;
+    display: flex;
+    /* border: 1px solid black; */
+    position: relative;
+    /* top: 6px; */
+}
+.header_section_discription{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
+    background: linear-gradient(to left,aliceblue,);
+  filter: drop-shadow(1px 1px 20px rgb(191, 206, 237));
+  z-index: 0;
+}
+.a1{
+    font-size: 6rem;
+    font-weight: 100;
+    font-family: cursive;
+   
+}
+.a2{
+    font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.a3{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header_section_img{
+    height: 100%;
+    width: 50%;
+}
+.header_cont button{
+    height: 40px;
+    width: 160px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header_cont:hover .header_section_img{
+    background-image: url("img/yashashi\ jaiswal\ boat.webp");
+    background-size: cover;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+   
+    z-index: 0;
+}
+.verieties_of_buts_cont{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border:1px solid black; */
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.b1_header_cont{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+   
+}
+.b1_header_cont a{
+    font-size: 33px;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+  margin-left: 30px;
+}
+.b1_header_cont span{
+    font-weight: 900;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b1{
+    height: 86%;
+    width: 23%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    display: block;
+
+}
+.b1:hover img{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+.playback_cont{
+    text-align: center;
+    height: 25px;
+    width: 230px;
+    position: relative;
+    bottom:20px ;
+  
+   left: 30px;
+   background-color: rgb(249, 190, 80);
+   border-radius: 20px;
+   font-size: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: capitalize;
+}
+.b1 p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.add_kart{
+    position: relative;
+    top: 50px;
+}
+.watch_cont_section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+.watches_section{
+    height: 120%;
+    width: 50%;
+    background-image: url("img/watch/watch\ 3.webp");
+    background-size: cover;
+    filter: drop-shadow(1px 1px 20px rgb(173, 167, 167));
+    box-shadow: 10px 10px 20px black;
+}
+.watch_description_section{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right,rgb(192, 226, 250),rgb(255, 255, 255));
+}
+.p2{
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p2 span{
+    font-weight: 800;
+}
+.p3{
+    font-size: 40px; text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.p3 span{
+    font-weight: 800;
+}
+.watch_cont_section button{
+    width: 140px;
+    height: 23px;
+    background-color: black;
+    border-radius: 6px;
+}
+.watch_cont_section a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.varaites_of_waches_cont{
+    height: 80%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 140px;
+
+}
+
+.watch_seller1{
+    font-size: 34px;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 24px;
+}
+.neakbond_cont{
+    display: flex;
+    position: relative;
+    top: 140px;
+}
+.neakbond_cont_discription{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to right,rgb(192, 226, 250),rgb(255, 255, 255));
+
+    
+}
+.neakbond_cont_img{
+    height: 100%;
+    width: 50%;
+}
+.p9{
+    font-size: 110px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.neakbond_itm_cont_sec{
+    height: 80%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 140px;
+
+}
+.wireless_speeker_cont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 20%;
+
+}
+.wireless_speeker_cont_img{
+    height: 100%;
+    width: 50%;
+    background-image: url("img/watch/speeker\ header.webp");
+    background-size: cover;
+}
+.wireless_speeker_cont:hover .wireless_speeker_cont_img{
+    background-image: url("img/watch/speker\ header\ 3.webp");
+    background-size: cover;
+    transition-duration: 5s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
+}
+.wireless_speeker_cont_discription{
+   display: block;
+   height: 100%;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(to right,rgb(192, 226, 250),rgb(255, 255, 255));
+   box-shadow: 10px 10px 20px black;
+}
+.p10{
+    font-size: 80px;
+}
+.wireless_spekker_product{
+    height: 80%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 140px;
+}
+.headphone_cont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 140px;
+
+}
+.headphone_cont_disproption{
+    display: block;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,rgb(192, 226, 250),rgb(255, 255, 255));
+    /* box-shadow: 10px 10px 20px black; */
+}
+.headphone_cont_img{
+    height: 100%;
+    width: 50%;
+    background-image: url("img/sreyash\ ayyar\ boat.webp");
+    background-size: cover;
+}
+.headphone_varieties_cont{
+    position: relative;
+    top: 140px;
+}
+.party_speeker_cont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 140px;
+}
+.party_speeker_img{
+    height: 100%;
+    width: 50%;
+}
+.party_speeker_discription{
+    display: block;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,rgb(192, 226, 250),rgb(255, 255, 255));
+    /* box-shadow: 10px 10px 20px black; */
+}
+.party_speeker_discription button{
+    position: relative;
+    left: 60px;
+}
+.party_speeker_verities{
+    position: relative;
+    top: 145px;
+}
+.footer_cont{
+    height: 70%;
+    width: 100%;
+    position: relative;
+    top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.footer_logo{
+    height: 20%;
+    width: 16%;
+    background-color: rgb(131, 98, 163);
+    
+    border-radius: 5% 6% 0 80%;
+    
+}
+.email_suscribe{
+    height: 60%;
+    width: 100%;
+   
+}
+.email_suscribe h3{
+    font-size: 35px;
+}
+.email_suscribe input{
+   height: 120px;
+   width: 350px;
+}
+.email_suscribe ul{
+    font-size: 20px;
+}
+.company_details_cont{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 100px;
+   display: flex;
+    flex-wrap: wrap;
+    display: block;
+    justify-content: space-around;
+}
+.product_of_company_cont{
+    height: 86%;
+    width: 23%;
+    
+    float: left;
+    margin: 5px;
+    padding: 10px;
+}
+.social_cont{
+    display: none;
+}
+.mobaile_view_home_cont{
+    display: none;
+}
+.more_offer_cont_hover{
+   height: 230px;
+   width: 180px;
+   background-color: white;
+   /* border: 1px solid black; */
+   position: absolute;
+   top: 80px;
+   padding: 5px;
+   border-radius: 7px;
+   box-shadow: 10px 10px 20px black;
+   display: none;
+
+}
+.more_offer_section{
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.varaites_itm_cont_child:hover .more_offer_cont_hover{
+    display: block;
+}
+            
+        
+    .login_button{
+       height: 70px;
+       width: 220px;
+       border: 1px solid lightgray;
+       position: absolute;
+       top: 80px;
+       right: 70px;
+       box-shadow: 10px 10px 20px black;
+       
+    }   
+    .login_button p{
+       font-size: 20px;
+       text-align: center;
+       font-weight: 900;
+       text-transform: capitalize;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    .login_button button{
+     height: 30px;
+     width: 80%;
+     background-color: black;
+     color: white;
+     position: relative;
+     left: 20px;
+     text-transform: capitalize;
+    }
+    .flow:hover .login_button{
+       display: block;
+    }
+
+
+}

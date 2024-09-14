@@ -1,0 +1,720 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>noite project</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/bff9bff389.js" crossorigin="anonymous"></script>
+    <style>
+       .main_class_corporate{
+    height: 90%;
+    width: 100%;
+   
+    position: relative;
+    top: 80px;
+       }
+       .corporate_order_main{
+                height: 60%;
+                width: 100%;
+                
+            }
+            .corporate_cont_discription{
+                height: 40%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-transform: capitalize;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background: linear-gradient(to top,rgb(130, 154, 130),white);
+            }
+            .corporate_cont_discription h1{
+                font-size: 20px;
+                color: brown;
+            }
+            .corporate_cont_discription button{
+background-color: black;
+height: 45px;
+width: 80%;
+border-radius: 10px;
+
+            }
+            .corporate_cont_discription a{
+                font-size: 15px;
+                text-transform: capitalize;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                text-decoration: none;
+            }
+            .corporate_items_no{
+                height: 90%;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 10px;
+                /* border: 1px solid black; */
+                justify-content: space-around;
+
+            }
+            .corporate_items_no_name{
+                height: 12%;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                text-transform: capitalize;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 800;
+                /* border: 1px solid black; */
+                align-items: center;
+                font-size: 26px;
+                padding: 10px;
+            }
+            .corporate_items_no_name a{
+                color: cadetblue;
+                text-decoration: none;
+                font-size: 17px;
+            }
+            .corporate_items_no1{
+                height: 45%;
+                width: 47%;
+                display: flex;
+                flex-direction: column;
+                /* border: 1px solid black; */
+            }
+            .playback_dis{
+                text-align: center;
+                height: 20px;
+                width: 90%;
+                background-color: orange;
+                font-weight: 800;
+                text-transform: capitalize;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                position: relative;
+                left: 10px;
+                bottom: 10px;
+                font-size: 13px;
+                border-radius: 7px;
+            }
+            .corporate_items_no1 p{
+                font-weight: 900;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             text-transform: capitalize;
+
+
+            }
+            .info_product b{
+                font-size: small;
+
+
+            }
+            .info_product del{
+                opacity: 0.4;
+                font-size: smaller;
+                font-weight: 100;
+            }
+            .info_product small{
+                color: rgb(59, 194, 14);
+            }
+.corpo_button{
+    height: 30px; width: 80%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 16px;
+    border-radius: 6px;
+}
+.hiddne_mo{
+    display: none;
+}
+.brand_ambassdor{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+}
+.brand1{
+    height: 47%;
+    width: 47%;
+ } 
+.footer_cont{
+    position: relative;
+    top: 50px;
+}
+.login_button{
+    display: none;
+}
+        @media (min-width:768px) {
+            .main_class_corporate{
+    height: 90%;
+    width: 100%;
+  
+    position: relative;
+    top: 100px;
+       }
+       .playback_dis{
+                text-align: center;
+                height: 20px;
+                width: 90%;
+                background-color: orange;
+                font-weight: 800;
+                text-transform: capitalize;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                position: relative;
+                left: 13px;
+                bottom: 10px;
+                font-size: 13px;
+                border-radius: 7px;
+            }
+            .corporate_items_no1 p{
+                font-weight: 900;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             text-transform: capitalize;
+             font-size: 20px;
+
+
+            }
+            .info_product b{
+                font-size: 16px;
+
+
+            }
+            .info_product del{
+                opacity: 0.4;
+                font-size: smaller;
+                font-weight: 100;
+            }
+            .info_product small{
+                color: rgb(59, 194, 14);
+            }
+            .hiddne_mo{
+                display: block;
+               position: relative;
+               top: 20px;
+               left: 10px;
+               opacity: 0.6;
+               font-size: 18px;
+               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            .hiddne_mo small{
+                color: cadetblue;
+                font-size: 15px;
+            }
+
+        }
+        @media (min-width:1024px) {
+           .main_class_corporate{
+            display: flex;
+            
+           }
+            .corporate_order_main{
+                height: 100%;
+                width: 50%;
+                
+            }
+            .corporate_cont_discription{
+                height: 100%;
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+               background: linear-gradient(to left,rgba(98, 98, 179, 0.571),white);
+                text-transform: capitalize;
+
+
+            }
+            .corporate_cont_discription h1{
+                font-size: 55px;
+                color: black;
+            }
+            .corporate_cont_discription span{
+                font-size: 24px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .corporate_cont_discription button{
+                width: 60%;
+               
+            }
+            .corporate_cont_discription a{
+                font-size: 20px;
+            }
+            .corporate_items_no{
+                height: 80%;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 10px;
+                /* border: 1px solid black; */
+                position: relative;
+                top: 30px;
+            }
+
+            .corporate_items_no1{
+                height: 80%;
+                width: 23%;
+                display: flex;
+                flex-direction: column;
+                /* border: 1px solid black; */
+            }
+            .info_product{
+
+            }
+            .corporate_items_no1:hover{
+                transform: scale(1.1);
+                border-radius: 10px;
+                transition-duration: 1s;
+            }
+            .brand_ambassdor{
+                height: 70%;
+                width: 100%;
+            }
+            .brand1{
+                height: 100%;
+                width: 23%;
+               
+            }
+            .login_button{
+            height: 70px;
+            width: 220px;
+            border: 1px solid lightgray;
+            position: absolute;
+            top: 80px;
+            right: 70px;
+            box-shadow: 10px 10px 20px black;
+            background-color: white;
+            
+         }   
+         .login_button p{
+            font-size: 20px;
+            text-align: center;
+            font-weight: 900;
+            text-transform: capitalize;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+         }
+         .login_button button{
+          height: 30px;
+          width: 80%;
+          background-color: black;
+          color: white;
+          position: relative;
+          left: 20px;
+          text-transform: capitalize;
+         }
+         .flow:hover .login_button{
+            display: block;
+         }
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="main_cont">
+        <nav class="my_nav">
+            <section class="logo_sec">
+                <img class="img1" src="img/logo.avif" width="100%">
+               
+                <h2>NO<span>IT</span></h2>
+            </section>
+            <section  class="input_cont">
+                <input type="search" placeholder=" search">
+                <ul class="varaites_itm_cont">
+                    <li class="varaites_itm_cont_child">
+
+                        <a href="index.html">home</a>
+                    </li>
+                    <li class="varaites_itm_cont_child">
+                        <p>catagories</p>
+
+                        <div class="catagories_itm">
+<section class="catagories_itm_child">
+   <img src="img/cata/tru wireless headphone.webp" width="20%">
+    <p>true wireless headphone</p>
+    
+    <img src="img/cata/party speeker.webp" width="20%">
+     <p>party speeker</p>
+
+    <img src="img/cata/wireless speeker.webp" width="20%">
+     <p>wireless speeker</p>
+     
+     <img src="img/cata/car asseries.webp" width="20%">
+     <p>car assesiries</p>
+    
+   
+</section>
+<section class="catagories_itm_child">
+   <img src="img/cata/persolied product.webp" width="20%">
+   <p>personalised product</p>
+   <img src="img/cata/wiredhead phones.webp" width="20%">
+   <p>wiredhead phone</p>
+   <img src="img/cata/mistrip trimmar.webp" width="20%">
+   <p>mistrip trimmar</p>
+   <img src="img/cata/suprhero product.webp" width="20%">
+   <p>superhero product</p>
+</section>
+<section class="catagories_itm_child">
+    <img src="img/cata/wire hair phone.png" width="20%">
+    <p>hairphones</p>
+    <img src="img/cata/limited edition.webp" width="20%">
+    <p>limited edition</p>
+    <img src="img/cata/saundbar.webp" width="20%">
+    <p>sound  bar</p>
+    <img src="img/cata/powerbank.webp" width="20%">
+    <p>pawerbank</p>
+</section>
+<section class="catagories_itm_child">
+    <img src="img/cata/Wiredearphones_100x.webp" width="20%">
+    <p>wired earphones</p>
+    <img src="img/cata/charger.webp"width="20%">
+    <p>charger</p>
+    <img src="img/cata/smart watch.webp" width="20%">
+    <p>smart watch</p>
+    <img src="img/cata/trebel of wuman.png" width="20%">
+    <p>trebel of women</p>
+</section>
+<section class="catagories_itm_child">
+    <img src="img/cata/wireless headphones.webp" width="20%">
+    <p>wireless headphone</p>
+    <img src="img/cata/gaming headphones.png" width="20%">
+    <p>gamming headphone</p>
+    <img src="img/cata/cabke.webp" width="20%">
+    <p>cables</p>
+</section>
+
+
+                        </div>
+
+                    </li>
+                    <li class="varaites_itm_cont_child">
+                        <a href="noitpermition.html">noit personalised</a>
+                    </li>
+                    <li class="varaites_itm_cont_child">
+                        <a href="noice with boat .html">noice with boat</a>
+                    </li>
+                    <li class="varaites_itm_cont_child">
+                        <a href="corporate order.html">corporate order</a>
+                    </li>
+                   <li class="varaites_itm_cont_child">
+                    <p>more</p>
+                    <div class="more_offer_cont_hover">
+                        <ul class="more_offer_section">
+                            <li>
+                                <a href="#">daily deals</a>
+
+                            </li>
+                            <li>
+                                <a href="#">blogs</a>
+                            </li>
+                            <li>
+                                <a href="#">reffer & earn</a>
+                            </li>
+                            <li>
+                                <a href="#">careers</a>
+                            </li>
+                            <li>
+                                <a href="#">social responsibility</a>
+                            </li>
+                            <li>
+                                <a href="#">store locater</a>
+                            </li>
+                            <li>
+                                <a href="#">NOIT community</a>
+                            </li>
+                        </ul>
+                    </div>
+                   </li>
+                </ul>
+            </section>
+
+            <section class="login_cont">
+                <input type="search" placeholder="search">
+                <a href="kart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a class="flow" href="login.html"><i class="fa-solid fa-user"></i>
+                    <div class="login_button">
+    
+                         <p>hii bud'y</p>
+                         <button>login</button>
+                    </div></a>
+                <a href="beseller.html"><i class="fa-solid fa-list"></i></a>
+            </section>
+        </nav>
+        <div class="main_class_corporate">
+        <div class="corporate_order_main">
+           <a href="corder.html"> <img src="img/corporate.order/bg1.webp" width="100%" height="100%"></a>
+        </div>
+                
+        <div class="corporate_cont_discription">
+            <h1>your bulk order</h1>
+            <span>are now hassale free</span>
+            <br><br>
+            <h1>got a big boAT order?</h1>
+            <span>come sell with us</span>
+            <span>for shipment off 250 unit or more</span>
+            <p>hit us up!</p> <br>
+            <button><a href="corder.html">submit your requirment</a></button>
+            <br>
+
+        </div>
+    </div>
+        </div>
+        <div class="corporate_items_no">
+            <section class="corporate_items_no_name"> <p>get's noit</p> <a href="#">see more</a></section>
+            <section class="corporate_items_no1">
+                <img src="img/corporate.order/img1.webp" width="100%" height="64%">
+                <span class="playback_dis"> 40 hours playback</span>
+                <p>boAT rokezs 109</b><br>
+               <span class="info_product"> <b>price for 1 ₹1299</b> <del>2490</del> <small>52% off</small></span><br>
+               <button class="corpo_button ">add to kart</button>
+               <br>
+               <span class="hiddne_mo">
+                buy 10 at ₹1299 | <small>50% off</small>
+               </span>
+            </section>
+            <section class="corporate_items_no1">
+
+
+                <img src="img/corporate.order/img2.webp" width="100%" height="64%">
+                <span class="playback_dis"> 65 hours playback</span>
+                <p>boAT rokezs 129</b><br>
+               <span class="info_product"> <b>price for 1 ₹1799</b> <del>2490</del> <small > 36% off</small></span><br>
+               <button class="corpo_button ">add to kart</button>
+               <br>
+               <span class="hiddne_mo">
+                buy 10 at ₹1599 | <small>60% off</small>
+               </span>
+            </section>
+            <section class="corporate_items_no1">
+
+
+                <img src="img/corporate.order/img9.webp" width="100%" height="64%">
+                <span class="playback_dis"> 100 hours playback</span>
+                <p>Noit ezs pro</b><br>
+               <span class="info_product"> <b>price for 1 ₹999</b> <del>9999</del> <small> 90% off</small></span><br>
+               <button class="corpo_button ">add to kart</button>
+               <br>
+               <span class="hiddne_mo">
+                buy 20 at ₹799 | <small>94% off</small>
+               </span>
+            </section>
+            <section class="corporate_items_no1">
+
+
+                <img src="img/corporate.order/img32.avif" width="100%" height="64%">
+                <span class="playback_dis">limited edition</span>
+                <p>smart watch</b><br>
+               <span class="info_product"> <b>price for 1 ₹1999</b> <del>9999</del> <small>70%  off</small></span><br>
+               <button class="corpo_button ">add to kart</button>
+               <br>
+               <span class="hiddne_mo">
+                buy 10 at ₹1599 | <small>74% off</small>
+               </span>
+            </section>
+        </div>
+        <div class="brand_ambassdor">
+            <section class="brand1">
+                <img src="img/hardik boat.webp" width="100%" height="100%">
+            </section>
+            <section class="brand1">
+                <img src="img/yashashi jaiswal boat.webp" width="100%" height="100%">
+            </section>
+            <section class="brand1">
+                <img src="img/sreyash ayyar boat.webp" width="100%" height="100%">
+            </section>
+            <section class="brand1">
+                <img src="img/mandhana boad.webp" width="100%" height="100%">
+            </section>
+        </div>
+    </div>
+    <div class="footer_cont">
+        <div class="enter_email">
+            <section class="footer_logo">
+                <h1>no<span style="color: brown;">it</span>
+                </h1>
+            </section>
+            <section class="email_suscribe" >
+              <h3>subscribe to our email alerts!</h3>
+              <input type="email" placeholder=" Enter your email address">
+
+              <ul>
+              
+                <li>
+                    <a href="#">shop</a>
+                </li>
+                <li>
+                    <a href="#">help</a>
+                </li>
+                <li>
+                    <a href="#">company</a>
+                </li>
+              </ul>
+            </section>
+        </div>
+        <div class="social_cont">
+            <p>let's get's social</p> <br>
+            <span><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>  <i class="fa-brands fa-linkedin"></i></span>
+
+                <p> privacy and condition</p> <br>
+                 <small>© 2024 Imagine Marketing Limited. All Rights Reserved. For queries contact us: Manager, Imagine Marketing Limited Unit no. 204 & 205, 2nd floor, D-wing & E-wing, Corporate Avenue, Andheri Ghatkopar Link Road, Mumbai, Maharashtra-400093, India</small>
+        </div>
+    </div>
+    <div class="company_details_cont">
+        <section class="product_of_company_cont">
+            <ul style="text-transform: capitalize; color: white; text-align: justify;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; line-height: 20px; opacity: 0.7; list-style: none;">
+                
+                <li style="font-size: 24px; opacity: 0.6; text-transform: capitalize;
+                color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    airpodes verieties
+                </li>
+                <br><br>
+                <li>
+                    Noise Cancellation 
+                    
+                </li>
+                <li>
+                    Earbuds Gaming Earbuds
+
+                </li>
+                <li>
+                    Large Playback Earbuds
+                </li> <br><br>
+                <li style="font-size: 24px; opacity: 0.6; text-transform: capitalize;
+                color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                shop by price </li>
+                <li>
+
+                    Earbuds Under 1000 <br>
+
+                     Earbuds Under 2000 <br>
+                     Earbuds Under 3000 
+                     <br>
+                     
+                     Earbuds Under 4000 <br>
+                     Earbuds Under 5000 <br>
+                      Earbuds Above 5000
+
+                    
+
+
+
+
+                </li>
+            </ul>
+        </section>
+        <section class="product_of_company_cont">
+
+<ul style="color: white; text-transform: capitalize;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 0.7; list-style: none;">
+
+
+            <li style="font-size: 24px; opacity: 0.6; text-transform: capitalize;
+            color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+               speeker's
+            </li>
+            <br><br>
+            <li>
+                Noise  boAt special speeker
+                
+            </li>
+            <li>
+                party speeker
+
+            </li>
+            <li>
+                Large Playback speeker
+            </li> <br><br>
+            <li style="font-size: 24px; opacity: 0.6; text-transform: capitalize;
+            color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            shop by price </li>
+            <li style="color: white;">
+
+                speeker Under 4000 <br>
+
+                 speeker Under 6000 <br>
+                 speeker Under 8000 
+                 <br>
+                 
+                 speeker Under 11,000  <br>
+                 speeker Under 17,000 <br>
+                 speeker Under 23,000
+                 </li>
+                 
+</ul>
+                
+        </section>
+        <section class="product_of_company_cont">
+
+
+
+            <ul style="color: white; text-transform: capitalize;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 0.7; list-style: none;">
+            
+            
+                        <li style="font-size: 24px; opacity: 0.6; text-transform: capitalize;
+                        color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                           headphone's
+                        </li>
+                        <br><br>
+                        <li>
+                            Noise  boAt special headphone
+                            
+                        </li>
+                        <li>
+                           boAT wire headphone
+            
+                        </li>
+                        <li>
+                            gamming headphone
+                        </li> <br><br>
+                        <li style="font-size: 24px; opacity: 0.6; text-transform: capitalize;
+                        color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        shop by price </li>
+                        <li style="color: white;">
+            
+                            headphone Under 2000 <br>
+            
+                            headphone Under 3000<br>
+                            headphone Under 3400 
+                             <br>
+                             
+                             headphone Under 3700 <br>
+                             headphone Under 5000 <br>
+                             headphone Under 9000
+                             </li>
+                             
+            </ul>
+
+
+        </section>
+        <section style="color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-transform: capitalize; opacity: 0.7;" class="product_of_company_cont">
+
+<h2>
+    Company Head office
+</h2> <br><br>
+<p style="text-align: justify;">
+    NOIT's corporate office is located at 204 and 205, 2nd floor, D-wing and E-wing, Corporate Avenue, Andheri Ghatkopar Link Road, Mumbai, Maharashtra 400093, India. The company also has locations in Gurgaon, Haryana and Bangalore
+</p>
+
+        </section>
+       
+    </div>
+    <div class="mobaile_view_home_cont">
+        <a href="home.html"><i class="fa-solid fa-house"></i></a>
+        <a href="noitpermition.html"><i class="fa-solid fa-share-from-square"></i></a>
+        <a style="color: brown;" href="noice with boat .html"><i class="fa-solid fa-handshake"></i></a>
+        <a href="corporate order.html"><i class="fa-solid fa-truck-fast"></i></a>
+        <a href="login.html"><i class="fa-solid fa-user"></i></a>
+    </div>
+        </body>
+        </html>
